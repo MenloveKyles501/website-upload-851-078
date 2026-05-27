@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索影片-经典欧美影片-高清免费在线观看</title>
+  <meta name="description" content="搜索经典欧美影片、欧美影片、经典影片合集和高清观看片单。">
+  <meta name="keywords" content="搜索,筛选,影片检索,经典欧美影片,欧美影片,经典影片,高清观看,影片合集,精选影片">
+  <link rel="stylesheet" href="./assets/original.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-wrap">
+      <a class="brand" href="./index.html" aria-label="经典欧美影片">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">
+          <strong>经典欧美影片</strong>
+          <em>经典影片合集片单</em>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+      <div class="nav-links" data-menu>
+        <a class="nav-link " href="./index.html">首页</a>
+        <a class="nav-link " href="./categories.html">分类</a>
+        <a class="nav-link " href="./ranking.html">排行榜</a>
+        <a class="nav-link is-active" href="./search.html">搜索</a>
+      </div>
+    </nav>
+    <div class="nav-chips">
+        <a href="./category-europe-classic.html">欧美经典</a>
+        <a href="./category-drama-films.html">剧情佳片</a>
+        <a href="./category-mystery-thriller.html">悬疑惊悚</a>
+        <a href="./category-action-adventure.html">动作冒险</a>
+        <a href="./category-romance-comedy.html">爱情喜剧</a>
+        <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+        <a href="./category-history-war.html">历史战争</a>
+        <a href="./category-family-healing.html">家庭治愈</a>
+    </div>
+  </header>
+  <main data-search-page>
+    <section class="page-hero search-hero">
+      <span class="eyebrow">Search</span>
+      <h1>搜索与筛选经典影片</h1>
+      <p>经典欧美影片栏目整理欧美经典影片内容，兼顾年代、类型和口碑维度。</p>
+      <div class="filter-panel">
+        <label>
+          <span>关键词</span>
+          <input type="search" data-search-input placeholder="片名、类型、标签、年份">
+        </label>
+        <label>
+          <span>类型</span>
+          <select data-type-filter>
+            <option value="">全部类型</option>
+            <option value="Movie">Movie</option>
+            <option value="TV Series">TV Series</option>
+            <option value="TV 剧集">TV 剧集</option>
+            <option value="TV 动画">TV 动画</option>
+            <option value="TV剧集">TV剧集</option>
+            <option value="TV动画">TV动画</option>
+            <option value="其他">其他</option>
+            <option value="剧集">剧集</option>
+            <option value="剧集 (12案)">剧集 (12案)</option>
+            <option value="剧集 (单元剧)">剧集 (单元剧)</option>
+            <option value="剧集(电视电影)">剧集(电视电影)</option>
+            <option value="剧集(短剧)">剧集(短剧)</option>
+            <option value="剧集/动画">剧集/动画</option>
+            <option value="剧集/喜剧">剧集/喜剧</option>
+            <option value="剧集/网络剧">剧集/网络剧</option>
+            <option value="动态漫画">动态漫画</option>
+            <option value="动漫">动漫</option>
+            <option value="动画">动画</option>
+            <option value="动画/剧集">动画/剧集</option>
+            <option value="动画/短片">动画/短片</option>
+            <option value="动画剧集">动画剧集</option>
+            <option value="动画片">动画片</option>
+            <option value="动画电影">动画电影</option>
+            <option value="动画短片/电影">动画短片/电影</option>
+            <option value="微短剧">微短剧</option>
+            <option value="武侠/动作">武侠/动作</option>
+            <option value="电影">电影</option>
+            <option value="电影 (动画)">电影 (动画)</option>
+            <option value="电影/剧场版">电影/剧场版</option>
+            <option value="电影/动画">电影/动画</option>
+            <option value="电影/纪录片">电影/纪录片</option>
+            <option value="电影/综艺">电影/综艺</option>
+            <option value="电影/网络电影">电影/网络电影</option>
+            <option value="电影/音乐">电影/音乐</option>
+            <option value="电视剧">电视剧</option>
+            <option value="电视剧 (6集)">电视剧 (6集)</option>
+            <option value="电视剧/传记">电视剧/传记</option>
+            <option value="电视剧/数字电影">电视剧/数字电影</option>
+            <option value="电视剧/第一季">电视剧/第一季</option>
+            <option value="电视剧/迷你剧">电视剧/迷你剧</option>
+            <option value="短剧">短剧</option>
+            <option value="纪录片">纪录片</option>
+            <option value="纪录片/系列">纪录片/系列</option>
+            <option value="纪录片/音乐会电影">纪录片/音乐会电影</option>
+            <option value="综艺">综艺</option>
+            <option value="综艺/剧集">综艺/剧集</option>
+            <option value="综艺/晚会">综艺/晚会</option>
+            <option value="综艺/电影">综艺/电影</option>
+            <option value="综艺/真人秀">综艺/真人秀</option>
+            <option value="网剧">网剧</option>
+            <option value="网剧/网络电影">网剧/网络电影</option>
+            <option value="网络剧">网络剧</option>
+            <option value="网络动画">网络动画</option>
+            <option value="网络电影">网络电影</option>
+            <option value="网络短剧">网络短剧</option>
+            <option value="迷你剧">迷你剧</option>
+            <option value="音乐剧电影">音乐剧电影</option>
+          </select>
+        </label>
+        <label>
+          <span>地区</span>
+          <select data-region-filter>
+            <option value="">全部地区</option>
+            <option value="中国">中国</option>
+            <option value="中国内地">中国内地</option>
+            <option value="中国台湾">中国台湾</option>
+            <option value="中国台湾/中国大陆">中国台湾/中国大陆</option>
+            <option value="中国台湾/美国">中国台湾/美国</option>
+            <option value="中国大陆">中国大陆</option>
+            <option value="中国大陆,香港">中国大陆,香港</option>
+            <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+            <option value="中国大陆/台湾">中国大陆/台湾</option>
+            <option value="中国大陆/尼日利亚">中国大陆/尼日利亚</option>
+            <option value="中国大陆/尼泊尔">中国大陆/尼泊尔</option>
+            <option value="中国大陆/日本">中国大陆/日本</option>
+            <option value="中国大陆/法国">中国大陆/法国</option>
+            <option value="中国大陆/潮汕">中国大陆/潮汕</option>
+            <option value="中国大陆/美国">中国大陆/美国</option>
+            <option value="中国大陆/韩国">中国大陆/韩国</option>
+            <option value="中国澳门">中国澳门</option>
+            <option value="中国香港">中国香港</option>
+            <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+            <option value="中国香港/台湾">中国香港/台湾</option>
+            <option value="中国香港/泰国">中国香港/泰国</option>
+            <option value="中国香港/美国">中国香港/美国</option>
+            <option value="丹麦">丹麦</option>
+            <option value="以色列/美国">以色列/美国</option>
+            <option value="伊朗">伊朗</option>
+            <option value="伊朗/法国">伊朗/法国</option>
+            <option value="俄罗斯">俄罗斯</option>
+            <option value="俄罗斯/德国">俄罗斯/德国</option>
+            <option value="加拿大">加拿大</option>
+            <option value="加拿大,美国">加拿大,美国</option>
+            <option value="加拿大/法国">加拿大/法国</option>
+            <option value="南非">南非</option>
+            <option value="南非/美国">南非/美国</option>
+            <option value="印度">印度</option>
+            <option value="印度尼西亚">印度尼西亚</option>
+            <option value="台湾">台湾</option>
+            <option value="哥伦比亚">哥伦比亚</option>
+            <option value="哥伦比亚/美国">哥伦比亚/美国</option>
+            <option value="土耳其">土耳其</option>
+            <option value="埃及">埃及</option>
+            <option value="塞尔维亚">塞尔维亚</option>
+            <option value="墨西哥">墨西哥</option>
+            <option value="墨西哥/美国">墨西哥/美国</option>
+            <option value="多国(沙特/印尼/埃及)">多国(沙特/印尼/埃及)</option>
+            <option value="尼日利亚">尼日利亚</option>
+            <option value="巴西">巴西</option>
+            <option value="巴西/美国">巴西/美国</option>
+            <option value="巴西/英国">巴西/英国</option>
+            <option value="德国">德国</option>
+            <option value="德国/中国大陆">德国/中国大陆</option>
+            <option value="德国/奥地利">德国/奥地利</option>
+            <option value="意大利">意大利</option>
+            <option value="意大利,法国">意大利,法国</option>
+            <option value="意大利/中国大陆">意大利/中国大陆</option>
+            <option value="意大利/法国">意大利/法国</option>
+            <option value="意大利/美国">意大利/美国</option>
+            <option value="意大利/英国">意大利/英国</option>
+            <option value="挪威">挪威</option>
+            <option value="挪威/中国合拍">挪威/中国合拍</option>
+            <option value="捷克">捷克</option>
+            <option value="新加坡">新加坡</option>
+            <option value="新加坡,马来西亚">新加坡,马来西亚</option>
+            <option value="新西兰">新西兰</option>
+            <option value="日本">日本</option>
+            <option value="日本,法国">日本,法国</option>
+            <option value="日本/中国">日本/中国</option>
+            <option value="日本/中国大陆">日本/中国大陆</option>
+            <option value="日本/美国">日本/美国</option>
+            <option value="日本/香港">日本/香港</option>
+            <option value="欧洲">欧洲</option>
+            <option value="比利时">比利时</option>
+            <option value="法国">法国</option>
+            <option value="法国/中国大陆">法国/中国大陆</option>
+            <option value="法国/伊拉克">法国/伊拉克</option>
+            <option value="法国/加拿大">法国/加拿大</option>
+            <option value="法国/德国">法国/德国</option>
+            <option value="法国/意大利">法国/意大利</option>
+            <option value="法国/比利时">法国/比利时</option>
+            <option value="法国/瑞典">法国/瑞典</option>
+            <option value="波兰">波兰</option>
+            <option value="波兰/德国">波兰/德国</option>
+            <option value="泰国">泰国</option>
+            <option value="泰国/法国">泰国/法国</option>
+            <option value="澳大利亚">澳大利亚</option>
+            <option value="瑞典">瑞典</option>
+            <option value="瑞典/挪威">瑞典/挪威</option>
+            <option value="瑞士/德国">瑞士/德国</option>
+            <option value="秘鲁/西班牙">秘鲁/西班牙</option>
+            <option value="美国">美国</option>
+            <option value="美国/中国大陆">美国/中国大陆</option>
+            <option value="美国/加拿大">美国/加拿大</option>
+            <option value="美国/南非">美国/南非</option>
+            <option value="美国/印尼">美国/印尼</option>
+            <option value="美国/巴西">美国/巴西</option>
+            <option value="美国/德国">美国/德国</option>
+            <option value="美国/意大利">美国/意大利</option>
+            <option value="美国/新西兰">美国/新西兰</option>
+            <option value="美国/日本">美国/日本</option>
+            <option value="美国/法国">美国/法国</option>
+            <option value="美国/澳大利亚">美国/澳大利亚</option>
+            <option value="美国/英国">美国/英国</option>
+            <option value="芬兰">芬兰</option>
+            <option value="英国">英国</option>
+            <option value="英国,美国">英国,美国</option>
+            <option value="英国/加拿大">英国/加拿大</option>
+            <option value="英国/叙利亚">英国/叙利亚</option>
+            <option value="英国/德国">英国/德国</option>
+            <option value="英国/意大利">英国/意大利</option>
+            <option value="英国/捷克">英国/捷克</option>
+            <option value="英国/法国">英国/法国</option>
+            <option value="英国/波兰">英国/波兰</option>
+            <option value="英国/爱尔兰">英国/爱尔兰</option>
+            <option value="英国/美国">英国/美国</option>
+            <option value="菲律宾">菲律宾</option>
+            <option value="葡萄牙">葡萄牙</option>
+            <option value="葡萄牙/中国大陆">葡萄牙/中国大陆</option>
+            <option value="葡萄牙/法国">葡萄牙/法国</option>
+            <option value="西班牙">西班牙</option>
+            <option value="西班牙/墨西哥">西班牙/墨西哥</option>
+            <option value="阿富汗/伊朗">阿富汗/伊朗</option>
+            <option value="阿根廷">阿根廷</option>
+            <option value="阿根廷,西班牙">阿根廷,西班牙</option>
+            <option value="阿根廷/美国">阿根廷/美国</option>
+            <option value="阿根廷/西班牙">阿根廷/西班牙</option>
+            <option value="韩国">韩国</option>
+            <option value="香港">香港</option>
+            <option value="香港/台湾">香港/台湾</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="section-wrap">
+      <div class="section-title">
+        <div>
+          <span class="eyebrow">Results</span>
+          <h2>筛选结果</h2>
+        </div>
+        <a href="./categories.html">分类浏览</a>
+      </div>
+      <div class="movie-grid" data-search-results>
+      <a class="movie-card" href="./movie-0001.html">
+        <span class="poster-box">
+          <img src="./1.jpg" alt="一脚定江山">
+          <span class="poster-type">电视剧</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>一脚定江山</strong>
+          <em>宋朝两个街头混混被选中进入皇家蹴鞠队,从死对头变成黄金搭档,踢一场保卫国格的生死球。</em>
+          <span class="movie-meta">2001 · 中国 · 古装/运动/励志</span>
+          <span class="tag-row"><span>蹴鞠</span><span>大宋</span><span>逆袭</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0002.html">
+        <span class="poster-box">
+          <img src="./2.jpg" alt="盐与火">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>盐与火</strong>
+          <em>中世纪,一对母女因掌握“盐腌火种”的秘术被指控为女巫,她们必须在教廷和盐矿主的夹缝中求生。</em>
+          <span class="movie-meta">2024 · 法国/意大利 · 剧情/历史</span>
+          <span class="tag-row"><span>中世纪</span><span>盐矿</span><span>女巫审判</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0003.html">
+        <span class="poster-box">
+          <img src="./3.jpg" alt="是的,我愿意!">
+          <span class="poster-type">电视剧</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>是的,我愿意!</strong>
+          <em>金牌离婚律师为抢客户,假装和死对头律师结婚,结果婚礼上两人接到同一份离婚案——他们自己的。</em>
+          <span class="movie-meta">2023 · 中国大陆 · 爱情</span>
+          <span class="tag-row"><span>轻喜剧</span><span>契约婚姻</span><span>职场</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0004.html">
+        <span class="poster-box">
+          <img src="./4.jpg" alt="刑事侦缉档案4">
+          <span class="poster-type">电视剧</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>刑事侦缉档案4</strong>
+          <em>香港重案组迎来一位天才心理侧写师,却不知他正是五年前悬案的真凶。</em>
+          <span class="movie-meta">2019 · 中国香港 · 悬疑、犯罪、剧情</span>
+          <span class="tag-row"><span>单元剧</span><span>香港警察</span><span>心理侧写</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0005.html">
+        <span class="poster-box">
+          <img src="./5.jpg" alt="勇士不问出处">
+          <span class="poster-type">网络剧</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>勇士不问出处</strong>
+          <em>一个只想混饭吃的厨子被误认成失踪的武林盟主,被迫上山处理一群即将内斗的江湖大佬。</em>
+          <span class="movie-meta">2025 · 中国大陆 · 动作/古装</span>
+          <span class="tag-row"><span>武侠</span><span>替身</span><span>江湖</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0006.html">
+        <span class="poster-box">
+          <img src="./6.jpg" alt="她是我爸爸">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>她是我爸爸</strong>
+          <em>为了与女儿相认,一位变性父亲隐瞒身份成为她的室友,却发现彼此都藏着致命的秘密。</em>
+          <span class="movie-meta">2019 · 中国台湾 · 剧情/家庭/LGBT</span>
+          <span class="tag-row"><span>变性</span><span>父女</span><span>亲情</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0007.html">
+        <span class="poster-box">
+          <img src="./7.jpg" alt="艳仆情缘">
+          <span class="poster-type">剧集</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>艳仆情缘</strong>
+          <em>京城第一纨绔少爷,爱上了府里那个脾气比他还大、从不把自己当仆人的俏丫鬟。</em>
+          <span class="movie-meta">2012 · 中国大陆 · 古装/喜剧/爱情</span>
+          <span class="tag-row"><span>宅斗</span><span>丫鬟</span><span>逆袭</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0008.html">
+        <span class="poster-box">
+          <img src="./8.jpg" alt="肌电工情">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>肌电工情</strong>
+          <em>一个失意的健身教练和一个中年电工意外发现了彼此的“肌肉电流”,只要身体接触就能看到对方的情伤记忆。</em>
+          <span class="movie-meta">2025 · 香港 · 爱情,剧情</span>
+          <span class="tag-row"><span>健身</span><span>电工</span><span>中年危机</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0009.html">
+        <span class="poster-box">
+          <img src="./9.jpg" alt="侠骨柔情">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>侠骨柔情</strong>
+          <em>冷面剑客为报师仇卷入江湖纷争,却爱上仇家之女,剑与情该如何抉择?</em>
+          <span class="movie-meta">1994 · 中国香港 · 武侠,爱情</span>
+          <span class="tag-row"><span>刀光剑影</span><span>恩怨情仇</span><span>江湖儿女</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0010.html">
+        <span class="poster-box">
+          <img src="./10.jpg" alt="重装警察">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>重装警察</strong>
+          <em>一群飞虎队成员被解散后,为了给兄弟复仇,决定用最专业的战术去打最狠的劫。</em>
+          <span class="movie-meta">2001 · 中国香港 · 动作/犯罪</span>
+          <span class="tag-row"><span>枪战</span><span>兄弟情</span><span>警匪</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0011.html">
+        <span class="poster-box">
+          <img src="./11.jpg" alt="舞伎家的料理人真人版">
+          <span class="poster-type">剧集</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>舞伎家的料理人真人版</strong>
+          <em>在京都花街的舞伎宿舍里,一个不善歌舞只爱做饭的女孩,用一碗热汤温暖了所有人的心。</em>
+          <span class="movie-meta">2024 · 日本 · 剧情,美食,生活</span>
+          <span class="tag-row"><span>花街日常</span><span>治愈料理</span><span>女性友谊</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0012.html">
+        <span class="poster-box">
+          <img src="./12.jpg" alt="迪兹先生">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>迪兹先生</strong>
+          <em>小镇披萨店老板迪兹意外继承亿万家产,却发现这笔钱诅咒了他,让他每说一句真心话就变老一岁。</em>
+          <span class="movie-meta">2024 · 美国 · 喜剧/奇幻</span>
+          <span class="tag-row"><span>小镇青年</span><span>巨额遗产</span><span>黑色幽默</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0013.html">
+        <span class="poster-box">
+          <img src="./13.jpg" alt="田园">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>田园</strong>
+          <em>因偷窃被城市驱逐的少年,被父亲“骗”回荒废的农村,惩罚他种完一百亩水稻才能离开。</em>
+          <span class="movie-meta">2024 · 中国大陆 · 家庭,剧情</span>
+          <span class="tag-row"><span>乡村振兴</span><span>父子</span><span>和解</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0014.html">
+        <span class="poster-box">
+          <img src="./14.jpg" alt="蜘蛛侠:英雄远征">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>蜘蛛侠:英雄远征</strong>
+          <em>当平行宇宙的裂缝打开,彼得·帕克必须远征异世界,面对一个自称“暗影蜘蛛”的疯狂变体。</em>
+          <span class="movie-meta">2023 · 美国 · 动作/科幻/冒险</span>
+          <span class="tag-row"><span>平行宇宙</span><span>悬疑</span><span>宿命对决</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0015.html">
+        <span class="poster-box">
+          <img src="./15.jpg" alt="我的徒步之旅">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>我的徒步之旅</strong>
+          <em>一个社恐程序员为了逃避裁员,背着帐篷走上了一条根本没有终点的路。</em>
+          <span class="movie-meta">2023 · 德国 · 冒险,剧情,励志</span>
+          <span class="tag-row"><span>徒步</span><span>朝圣之路</span><span>自我和解</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0016.html">
+        <span class="poster-box">
+          <img src="./16.jpg" alt="黑超特警组:反转世界">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>黑超特警组:反转世界</strong>
+          <em>一次记忆消除器故障,导致全人类和外星人的记忆被互换,MIB特工们反而成了人人喊打的“外星人”。</em>
+          <span class="movie-meta">2028 · 美国 · 动作,喜剧</span>
+          <span class="tag-row"><span>科幻</span><span>外星人</span><span>重启</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0017.html">
+        <span class="poster-box">
+          <img src="./17.jpg" alt="彩叶草之梦">
+          <span class="poster-type">动画/剧集</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>彩叶草之梦</strong>
+          <em>一个无法做梦的女孩,在自家阳台的彩叶草叶片上,看见了别人的梦境投影。</em>
+          <span class="movie-meta">2025 · 日本 · 奇幻/治愈</span>
+          <span class="tag-row"><span>植物</span><span>梦境</span><span>慢节奏</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0018.html">
+        <span class="poster-box">
+          <img src="./18.jpg" alt="泰特罗">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>泰特罗</strong>
+          <em>一个少年去布宜诺斯艾利斯寻找失联的著名指挥家哥哥,却揭开了一个家族的黑暗往事。</em>
+          <span class="movie-meta">2009 · 阿根廷/美国 · 剧情/悬疑</span>
+          <span class="tag-row"><span>黑白</span><span>家族秘密</span><span>文艺</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0019.html">
+        <span class="poster-box">
+          <img src="./19.jpg" alt="李知凡太太">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>李知凡太太</strong>
+          <em>做了三十年“李知凡太太”的淑芬,在丈夫退休第二天,突然留下一封信:“我要去找我自己了。</em>
+          <span class="movie-meta">1999 · 中国 · 剧情、家庭</span>
+          <span class="tag-row"><span>女性</span><span>婚姻</span><span>自我</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0020.html">
+        <span class="poster-box">
+          <img src="./20.jpg" alt="狂父复子仇">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>狂父复子仇</strong>
+          <em>一位聋哑父亲只身闯入亚洲最大的地下器官交易网络,只为救回被绑架的儿子。</em>
+          <span class="movie-meta">2021 · 韩国 · 动作、复仇、惊悚</span>
+          <span class="tag-row"><span>以暴制暴</span><span>父爱如山</span><span>地下世界</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0021.html">
+        <span class="poster-box">
+          <img src="./21.jpg" alt="我渴望被禁止的东西">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>我渴望被禁止的东西</strong>
+          <em>一个循规蹈矩的图书管理员列出了所有被社会禁止的事,然后决定在死之前,把它们全部做一遍。</em>
+          <span class="movie-meta">2019 · 日本 · 剧情,伦理</span>
+          <span class="tag-row"><span>禁忌</span><span>欲望</span><span>社会规则</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0022.html">
+        <span class="poster-box">
+          <img src="./22.jpg" alt="跳吧,女孩">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>跳吧,女孩</strong>
+          <em>车祸截肢的女孩,如何说服全世界,轮椅上的街舞也可以参加奥运会表演项目。</em>
+          <span class="movie-meta">2024 · 美国 · 歌舞,励志</span>
+          <span class="tag-row"><span>轮椅舞者</span><span>残奥会</span><span>追梦</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0023.html">
+        <span class="poster-box">
+          <img src="./23.jpg" alt="围城(电影)">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>围城(电影)</strong>
+          <em>1937年南京,九个互不相识的普通人在一座废弃教堂里死守了七天七夜。</em>
+          <span class="movie-meta">2025 · 中国 · 战争,剧情,历史</span>
+          <span class="tag-row"><span>抗战</span><span>巷战</span><span>小人物</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0024.html">
+        <span class="poster-box">
+          <img src="./24.jpg" alt="村官普发兴">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>村官普发兴</strong>
+          <em>云南小村的傣族村官普发兴,用一头牛换来了整个村子的第一条公路。</em>
+          <span class="movie-meta">2024 · 中国 · 剧情,传记</span>
+          <span class="tag-row"><span>乡村振兴</span><span>真实改编</span><span>基层干部</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0025.html">
+        <span class="poster-box">
+          <img src="./25.jpg" alt="为了一句话">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>为了一句话</strong>
+          <em>1967年,一个邮差因为漏送了一封信,导致收信人没看到“主席万岁”那句话,全家陷入灭顶之灾。</em>
+          <span class="movie-meta">2018 · 中国大陆 · 剧情,历史</span>
+          <span class="tag-row"><span>文革</span><span>言论自由</span><span>知识分子</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0026.html">
+        <span class="poster-box">
+          <img src="./26.jpg" alt="被拒绝者">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>被拒绝者</strong>
+          <em>一场离奇招聘会后的连环失踪案,让七个“被拒绝者”的命运意外交织。</em>
+          <span class="movie-meta">2024 · 中国大陆 · 剧情/悬疑</span>
+          <span class="tag-row"><span>心理惊悚</span><span>底层群像</span><span>复仇</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0027.html">
+        <span class="poster-box">
+          <img src="./27.jpg" alt="鲜花盛开的村庄">
+          <span class="poster-type">剧集</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>鲜花盛开的村庄</strong>
+          <em>失意的城市女白领回到即将拆迁的故乡,却发现村里的老人们正用一生守护着一片即将绝迹的古花海。</em>
+          <span class="movie-meta">2023 · 中国大陆 · 剧情/乡村/治愈</span>
+          <span class="tag-row"><span>乡村振兴</span><span>返乡青年</span><span>花海经济</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0028.html">
+        <span class="poster-box">
+          <img src="./28.jpg" alt="着魔">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>着魔</strong>
+          <em>单亲妈妈怀疑女儿被恶灵附身,求助神棍驱魔,却发现真正“着魔”的其实是自己和这间老宅。</em>
+          <span class="movie-meta">2024 · 中国台湾 · 恐怖,心理</span>
+          <span class="tag-row"><span>民俗</span><span>附身</span><span>密室</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0029.html">
+        <span class="poster-box">
+          <img src="./29.jpg" alt="幸福来敲门2012">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>幸福来敲门2012</strong>
+          <em>2012年玛雅预言前夕,一对决裂十年的父子,为了“一起死”而踏上了寻亲之旅。</em>
+          <span class="movie-meta">2024 · 中国大陆 · 剧情家庭</span>
+          <span class="tag-row"><span>末日</span><span>亲情</span><span>误解</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0030.html">
+        <span class="poster-box">
+          <img src="./30.jpg" alt="美国最恐怖的宠物">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>美国最恐怖的宠物</strong>
+          <em>女孩网购了一只迷你章猫宠物,但它每晚都会长大一圈,且开始猎杀活物。</em>
+          <span class="movie-meta">2023 · 美国 · 恐怖,惊悚</span>
+          <span class="tag-row"><span>基因改造</span><span>宠物</span><span>怪物</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0031.html">
+        <span class="poster-box">
+          <img src="./31.jpg" alt="家政夫三田园4">
+          <span class="poster-type">电视剧</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>家政夫三田园4</strong>
+          <em>三田园再次化身家政夫潜入名流家族,这次他要面对的是一个利用高科技监控家人的偏执狂父亲。</em>
+          <span class="movie-meta">2028 · 日本 · 剧情,悬疑,家庭</span>
+          <span class="tag-row"><span>家政夫</span><span>瓦解家庭</span><span>秘密</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0032.html">
+        <span class="poster-box">
+          <img src="./32.jpg" alt="吉尔达">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>吉尔达</strong>
+          <em>赌场老板的新婚妻子吉尔达,恰好是老板手下那个男人曾经的挚爱与噩梦。</em>
+          <span class="movie-meta">1946 · 美国 · 黑色电影/爱情/惊悚</span>
+          <span class="tag-row"><span>蛇蝎美人</span><span>赌场</span><span>三角关系</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0033.html">
+        <span class="poster-box">
+          <img src="./33.jpg" alt="阿黛尔的生活">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>阿黛尔的生活</strong>
+          <em>爱吃意大利面的高中女生阿黛尔,在街头遇见了蓝发女孩艾玛,生活从此天翻地覆。</em>
+          <span class="movie-meta">2013 · 法国 · 剧情,爱情,同性</span>
+          <span class="tag-row"><span>成长</span><span>阶层</span><span>蓝发</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0034.html">
+        <span class="poster-box">
+          <img src="./34.jpg" alt="霸王龙:进化之旅">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>霸王龙:进化之旅</strong>
+          <em>一只幼年霸王龙意外被传送到现代,它唯一的回家之路,是倒着经历自己物种七千万年的退化过程。</em>
+          <span class="movie-meta">2024 · 美国 · 纪录片,古生物,冒险</span>
+          <span class="tag-row"><span>恐龙重生</span><span>时间穿越</span><span>科学造假</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0035.html">
+        <span class="poster-box">
+          <img src="./35.jpg" alt="回到沙滩">
+          <span class="poster-type">电影</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>回到沙滩</strong>
+          <em>三十岁那年夏天,他回到高中时打工的沙滩,遇见了一个会让他失忆的男孩。</em>
+          <span class="movie-meta">2023 · 中国台湾 · 青春,同性,剧情</span>
+          <span class="tag-row"><span>失忆</span><span>夏日恋情</span><span>海边</span></span>
+        </span>
+      </a>
+      <a class="movie-card" href="./movie-0036.html">
+        <span class="poster-box">
+          <img src="./36.jpg" alt="七十二家房客第十二部粤语">
+          <span class="poster-type">剧集</span>
+        </span>
+        <span class="movie-card-body">
+          <strong>七十二家房客第十二部粤语</strong>
+          <em>旧楼面临强拆,七十二家房客各怀鬼胎,却发现整栋楼的真正主人,竟是楼下那个疯疯癫癫的扫地阿婆。</em>
+          <span class="movie-meta">2025 · 中国香港 · 喜剧,剧情,生活</span>
+          <span class="tag-row"><span>市井</span><span>粤语</span><span>房东与租客</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h2>经典欧美影片</h2>
+        <p>经典欧美影片栏目整理欧美经典影片内容，兼顾年代、类型和口碑维度。</p>
+      </div>
+      <div>
+        <h3>片单导航</h3>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">热门排行</a>
+        <a href="./search.html">影片搜索</a>
+      </div>
+      <div>
+        <h3>精选分类</h3>
+        <a href="./category-europe-classic.html">欧美经典</a>
+        <a href="./category-mystery-thriller.html">悬疑惊悚</a>
+        <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+      </div>
+      <div>
+        <h3>观影入口</h3>
+        <a href="./movie-0001.html">今日焦点</a>
+        <a href="./movie-0002.html">口碑推荐</a>
+        <a href="./movie-0003.html">高分精选</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 经典欧美影片 · 经典影片合集片单</p>
+  </footer>
+  <script src="./assets/search-data.js"></script>
+  <script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

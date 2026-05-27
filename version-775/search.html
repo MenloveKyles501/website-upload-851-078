@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索-经典亚洲影片</title>
+    <meta name="description" content="经典亚洲影片站内搜索，按片名、地区、年份、类型和标签搜索影片。">
+    <meta name="keywords" content="经典亚洲影片,亚洲影片,经典影片,影片合集,高清观看,精选影片,搜索影片,在线观看">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="经典亚洲影片">
+            <span class="brand-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                    <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Z"></path>
+                    <path d="M9.5 8.5v7l6-3.5-6-3.5Z"></path>
+                </svg>
+            </span>
+            <span class="brand-copy">
+                <strong>经典亚洲影片</strong>
+                <small>高清免费在线观看</small>
+            </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link " href="index.html">首页</a>
+<a class="nav-link " href="categories.html">分类</a>
+<a class="nav-link " href="all-movies.html">全部影片</a>
+<a class="nav-link " href="rankings.html">排行榜</a>
+<a class="nav-link active" href="search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片标题" aria-label="搜索影片标题">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-toggle aria-label="打开菜单">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" data-mobile-menu aria-label="移动导航">
+        <a class="mobile-link " href="index.html">首页</a>
+<a class="mobile-link " href="categories.html">分类</a>
+<a class="mobile-link " href="all-movies.html">全部影片</a>
+<a class="mobile-link " href="rankings.html">排行榜</a>
+<a class="mobile-link active" href="search.html">搜索</a>
+    </nav>
+</header>
+<main>
+    <section class="page-hero search-hero">
+        <div>
+            <span class="kicker">Search</span>
+            <h1>搜索影片</h1>
+            <p>输入片名、地区、年份、类型或标签，快速定位影片详情页。</p>
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="global-search" data-search-page>
+            <form class="search-form" data-search-form>
+                <input type="search" name="q" placeholder="输入关键词搜索" data-search-input aria-label="输入关键词搜索">
+                <button type="submit">搜索</button>
+            </form>
+            <div class="search-status" data-search-status></div>
+            <div class="movie-grid" data-search-results></div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a class="brand footer-logo" href="index.html" aria-label="经典亚洲影片">
+                <span class="brand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img">
+                        <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Z"></path>
+                        <path d="M9.5 8.5v7l6-3.5-6-3.5Z"></path>
+                    </svg>
+                </span>
+                <span class="brand-copy">
+                    <strong>经典亚洲影片</strong>
+                    <small>经典影片合集片单</small>
+                </span>
+            </a>
+            <p>经典亚洲影片栏目整理亚洲经典影片内容，涵盖多年代和多题材分类。</p>
+        </div>
+        <div class="footer-links">
+            <h3>快速入口</h3>
+            <a href="categories.html">分类总览</a>
+            <a href="all-movies.html">全部影片</a>
+            <a href="rankings.html">排行榜</a>
+            <a href="search.html">站内搜索</a>
+        </div>
+        <div class="footer-links wide">
+            <h3>热门分类</h3>
+            <div class="footer-grid-links"><a href="category-classic-asian.html">经典亚洲</a><a href="category-suspense-crime.html">悬疑犯罪</a><a href="category-action-war.html">动作战争</a><a href="category-romance-drama.html">爱情剧情</a><a href="category-comedy-life.html">喜剧生活</a><a href="category-sci-fi-fantasy.html">科幻奇幻</a><a href="category-history-biography.html">历史传记</a><a href="category-family-inspiration.html">家庭励志</a></div>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/search-data.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
